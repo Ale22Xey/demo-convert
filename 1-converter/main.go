@@ -8,7 +8,7 @@ func main() {
 		USD_TO_RUB = 75.50
 	)
 
-	EUR_TO_RUB := USD_TO_RUB / USD_TO_EUR
+	const EUR_TO_RUB = USD_TO_RUB / USD_TO_EUR
 
 	fmt.Printf("Курсы конвертации:\n")
 	fmt.Printf("USD to EUR: %.4f\n", USD_TO_EUR)
